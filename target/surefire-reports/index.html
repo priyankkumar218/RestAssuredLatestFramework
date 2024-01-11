@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestNG_Regression_Suite" title="com.qa.api.tests.GoBankAPITests" class="method navigator-link" hash-for-method="testCreateAccount">testCreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Regression_Suite" title="com.qa.api.tests.GoBankAPITests" class="method navigator-link" hash-for-method="testDeleteAccountWithToken">testDeleteAccountWithToken</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,6 +153,13 @@
                   <a name="testCreateAccount">
                   </a> <!-- testCreateAccount -->
                   <span class="method-name">testCreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteAccountWithToken">
+                  </a> <!-- testDeleteAccountWithToken -->
+                  <span class="method-name">testDeleteAccountWithToken</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -235,32 +247,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCreateAccount')
 data.setCell(0, 2, 'com.qa.api.tests.GoBankAPITests')
-data.setCell(0, 3, 2403);
+data.setCell(0, 3, 4325);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLoginAndGetToken')
 data.setCell(1, 2, 'com.qa.api.tests.GoBankAPITests')
-data.setCell(1, 3, 155);
+data.setCell(1, 3, 878);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testGetAccounts')
 data.setCell(2, 2, 'com.qa.api.tests.GoBankAPITests')
-data.setCell(2, 3, 151);
+data.setCell(2, 3, 580);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testGetAccountWithToken')
 data.setCell(3, 2, 'com.qa.api.tests.GoBankAPITests')
-data.setCell(3, 3, 60);
+data.setCell(3, 3, 539);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testTransferAmount')
 data.setCell(4, 2, 'com.qa.api.tests.GoBankAPITests')
-data.setCell(4, 3, 49);
+data.setCell(4, 3, 396);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDeleteAccountWithToken')
+data.setCell(5, 2, 'com.qa.api.tests.GoBankAPITests')
+data.setCell(5, 3, 355);
 window.suiteTableData['TestNG_Regression_Suite']= { tableData: data, tableDiv: 'times-div-TestNG_Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-TestNG_Regression_Suite">
               </div> <!-- times-div-TestNG_Regression_Suite -->
             </div> <!-- times-div -->
@@ -293,39 +309,47 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateAccount</span>
-                <span class="method-start">424 ms</span>
+                <span class="method-start">634 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">2845 ms</span>
+                <span class="method-start">4981 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetAccounts</span>
-                <span class="method-start">2847 ms</span>
+                <span class="method-start">4983 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3000 ms</span>
+                <span class="method-start">5567 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTransferAmount</span>
-                <span class="method-start">3002 ms</span>
+                <span class="method-start">5570 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3052 ms</span>
+                <span class="method-start">5968 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginAndGetToken</span>
-                <span class="method-start">3055 ms</span>
+                <span class="method-start">5970 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3212 ms</span>
+                <span class="method-start">6852 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetAccountWithToken</span>
-                <span class="method-start">3213 ms</span>
+                <span class="method-start">6854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteAccountWithToken</span>
+                <span class="method-start">7399 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

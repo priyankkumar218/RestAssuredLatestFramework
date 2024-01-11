@@ -1,52 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-11T18:48:44 IST" name="TestNG Regression Suite" finished-at="2024-01-11T18:48:48 IST" duration-ms="3304">
+  <suite started-at="2024-01-11T20:23:02 IST" name="TestNG Regression Suite" finished-at="2024-01-11T20:23:09 IST" duration-ms="7805">
     <groups>
     </groups>
-    <test started-at="2024-01-11T18:48:44 IST" name="Go Bank API Test" finished-at="2024-01-11T18:48:48 IST" duration-ms="3304">
+    <test started-at="2024-01-11T20:23:02 IST" name="Go Bank API Test" finished-at="2024-01-11T20:23:09 IST" duration-ms="7805">
       <class name="com.qa.api.tests.GoBankAPITests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:44 IST" name="setUp" finished-at="2024-01-11T18:48:45 IST" duration-ms="364" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:02 IST" name="setUp" finished-at="2024-01-11T20:23:02 IST" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreateAccount()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:45 IST" name="testCreateAccount" finished-at="2024-01-11T18:48:47 IST" duration-ms="2403" status="PASS">
+        <test-method signature="testCreateAccount()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:02 IST" name="testCreateAccount" finished-at="2024-01-11T20:23:07 IST" duration-ms="4325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateAccount -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:47 IST" name="setUp" finished-at="2024-01-11T18:48:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:07 IST" name="setUp" finished-at="2024-01-11T20:23:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetAccounts()[pri:1, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:47 IST" name="testGetAccounts" finished-at="2024-01-11T18:48:47 IST" duration-ms="151" status="PASS">
+        <test-method signature="testGetAccounts()[pri:1, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:07 IST" name="testGetAccounts" finished-at="2024-01-11T20:23:07 IST" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAccounts -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:47 IST" name="setUp" finished-at="2024-01-11T18:48:47 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:07 IST" name="setUp" finished-at="2024-01-11T20:23:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testTransferAmount()[pri:2, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:47 IST" name="testTransferAmount" finished-at="2024-01-11T18:48:47 IST" duration-ms="49" status="PASS">
+        <test-method signature="testTransferAmount()[pri:2, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:07 IST" name="testTransferAmount" finished-at="2024-01-11T20:23:08 IST" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTransferAmount -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:47 IST" name="setUp" finished-at="2024-01-11T18:48:47 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:08 IST" name="setUp" finished-at="2024-01-11T20:23:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginAndGetToken()[pri:3, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:47 IST" name="testLoginAndGetToken" finished-at="2024-01-11T18:48:47 IST" duration-ms="155" status="PASS">
+        <test-method signature="testLoginAndGetToken()[pri:3, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:08 IST" name="testLoginAndGetToken" finished-at="2024-01-11T20:23:08 IST" duration-ms="878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginAndGetToken -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:47 IST" name="setUp" finished-at="2024-01-11T18:48:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:08 IST" name="setUp" finished-at="2024-01-11T20:23:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetAccountWithToken()[pri:4, instance:com.qa.api.tests.GoBankAPITests@7b420819]" started-at="2024-01-11T18:48:47 IST" name="testGetAccountWithToken" finished-at="2024-01-11T18:48:48 IST" duration-ms="60" status="PASS">
+        <test-method signature="testGetAccountWithToken()[pri:4, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:08 IST" name="testGetAccountWithToken" finished-at="2024-01-11T20:23:09 IST" duration-ms="539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAccountWithToken -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:09 IST" name="setUp" finished-at="2024-01-11T20:23:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteAccountWithToken()[pri:5, instance:com.qa.api.tests.GoBankAPITests@7a1a14a4]" started-at="2024-01-11T20:23:09 IST" name="testDeleteAccountWithToken" finished-at="2024-01-11T20:23:09 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAccountWithToken -->
       </class> <!-- com.qa.api.tests.GoBankAPITests -->
     </test> <!-- Go Bank API Test -->
   </suite> <!-- TestNG Regression Suite -->

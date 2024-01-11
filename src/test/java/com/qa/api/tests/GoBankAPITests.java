@@ -21,7 +21,7 @@ public class GoBankAPITests {
 
     @BeforeMethod
     public void setUp() {
-        RestAssured.baseURI = "http://localhost:3000";
+        RestAssured.baseURI = "https://gobankdev.onrender.com";
     }
 
     @Test(priority = 0)
@@ -161,6 +161,21 @@ public class GoBankAPITests {
                 .statusCode(200)
                 .contentType(ContentType.JSON)
                 .body("id", equalTo(accountId))
+                .log().all();
+    }
+
+    @Test(priority = 5)
+    public void testDeleteAccountWithToken() {
+        given()
+                .header("x-jwt-token", jwtToken)
+                .contentType(ContentType.JSON)
+                .when()
+                .delete("/account/" + accountId)
+                .then()
+                .assertThat()
+                .statusCode(200)
+                .contentType(ContentType.JSON)
+                .body("deleted", equalTo(accountId))
                 .log().all();
     }
 }
