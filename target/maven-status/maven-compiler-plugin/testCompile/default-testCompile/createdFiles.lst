@@ -1,0 +1,10 @@
+com\qa\api\tests\ReqResTest.class
+com\qa\api\tests\ProductAPITest.class
+com\qa\api\tests\GoBankAPITests.class
+com\qa\api\tests\AmadeusFlightAPITest.class
+com\qa\api\tests\GoRestTest.class
+com\qa\api\base\BaseTest.class
+com\qa\api\tests\GoBankAPITests$AccountRequest.class
+com\qa\api\tests\GoBankAPITests$LoginRequest.class
+com\qa\api\tests\CiruitTest.class
+com\qa\api\tests\GoBankAPITests$TransferRequest.class

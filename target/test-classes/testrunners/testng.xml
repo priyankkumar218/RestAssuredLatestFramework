@@ -56,5 +56,11 @@
 		</classes>
 	</test>
 
+	<test name="Go Bank API Test">
+		<classes>
+			<class name="com.qa.api.tests.GoBankAPITests" />
+		</classes>
+	</test>
+
 
 </suite>

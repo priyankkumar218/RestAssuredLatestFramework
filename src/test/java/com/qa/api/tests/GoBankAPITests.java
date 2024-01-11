@@ -155,7 +155,7 @@ public class GoBankAPITests {
                 .header("x-jwt-token", jwtToken)
                 .contentType(ContentType.JSON)
                 .when()
-                .get("/account/"+accountId)
+                .get("/account/" + accountId)
                 .then()
                 .assertThat()
                 .statusCode(200)
