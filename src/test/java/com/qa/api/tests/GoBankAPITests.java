@@ -178,4 +178,5 @@ public class GoBankAPITests {
                 .body("deleted", equalTo(accountId))
                 .log().all();
     }
+
 }
