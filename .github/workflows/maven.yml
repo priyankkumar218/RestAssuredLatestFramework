@@ -41,7 +41,7 @@ jobs:
         name: report
         path: ./reports/
     - name: Display structure of downloaded files
-      run: ls -R reports
+      run: ls -ltR reports
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
