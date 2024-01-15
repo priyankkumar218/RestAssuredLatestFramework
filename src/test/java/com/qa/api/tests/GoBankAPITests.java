@@ -21,7 +21,7 @@ public class GoBankAPITests {
 
     @BeforeMethod
     public void setUp() {
-        RestAssured.baseURI = "https://gobankdev.onrender.co";
+        RestAssured.baseURI = "https://gobankdev.onrender.com";
     }
 
     @Test(priority = 0)
