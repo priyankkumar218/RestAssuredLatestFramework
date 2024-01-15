@@ -35,12 +35,11 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: report
-        path: reports
+        path: ./reports/
     - name: Download Artifact
       uses: actions/download-artifact@v4
       with:
-        path: reports
-        merge-multiple: true
+        path: ./reports/
     - name: Display structure of downloaded files
       run: ls -R reports
 
