@@ -36,6 +36,12 @@ jobs:
       with:
         name: report
         path: reports
+    - uses: actions/download-artifact@v4
+      with:
+        path: /reports
+        merge-multiple: true
+    - name: Display structure of downloaded files
+      run: ls -R /reports
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
